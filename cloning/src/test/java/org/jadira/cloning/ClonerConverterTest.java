@@ -15,11 +15,12 @@ import org.jadira.cloning.data.DeepCopyHolder;
 import org.jadira.cloning.data.IdHolder;
 import org.jadira.reflection.cloning.orika.ClonerConverter;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class ClonerConverterTest {
 
-    @Test
+    @Test @Ignore
     public void clonerConverter() throws DatatypeConfigurationException {
 
         ClonerConverter cc2 = new ClonerConverter(DeepCopyHolder.class);
