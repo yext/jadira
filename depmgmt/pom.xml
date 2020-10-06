@@ -24,7 +24,7 @@
 	<artifactId>jadira.depmgmt</artifactId>
 	<packaging>pom</packaging>
 
-	<version>3.2.0.GA</version>
+	<version>3.2.1-SNAPSHOT</version>
 
 	<name>Jadira Framework Dependency Management</name>
 	<description>Dependency Management for Jadira Framework</description>
@@ -73,10 +73,10 @@
 	</licenses>
 	
 	<scm>
-	    <connection>scm:git:git@github.com:JadiraOrg/jadira.git</connection>
-	    <url>scm:git:git@github.com:JadiraOrg/jadira.git</url>
-	    <developerConnection>scm:git:git@github.com:JadiraOrg/jadira.git</developerConnection>
-  	  <tag>jadira.parent-3.2.0.GA</tag>
+	    <connection>scm:git:git@github.com:yext/jadira.git</connection>
+	    <url>scm:git:git@github.com:yext/jadira.git</url>
+	    <developerConnection>scm:git:git@github.com:yext/jadira.git</developerConnection>
+	    <tag>HEAD</tag>
 	</scm>
 
 	<dependencyManagement>
